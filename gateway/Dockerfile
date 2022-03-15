@@ -1,0 +1,8 @@
+FROM centos
+
+COPY ./GATEWAY /
+
+WORKDIR /
+
+
+CMD ["./GATEWAY"]
